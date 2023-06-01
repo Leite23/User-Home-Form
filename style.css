@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Doppio+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doppio+One&display=swap');
+
+
+:root {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    --laranja: #FF7A00;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.teste1 img {
+    display: flex;
+    position: relative;
+    max-width: fit-content;
+    top: 30%;
+    left: calc(100% + 35%);
+}
+
+body {
+    overflow: hidden;
+}
+
+#imagemfundo {
+    max-width: fit-content;
+    height: 100%;
+}
+
+.container-fluid {
+    position: absolute;
+    background-color: var(--laranja);
+    padding-right: 100vh;
+}
+
+.fonteLogo {
+    font-family: 'Doppio One', sans-serif;
+    color: #ffff
+}
+
+.mensagemuelcome {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30vh;
+    z-index: 10;
+}
+
+.mensagemuelcome h1,
+p,
+button {
+    text-align: center;
+    align-items: center;
+}
+
+.plogo {
+
+    position: absolute;
+    width: 364px;
+    height: 248px;
+    left: 162px;
+    top: 110px;
+}
+
+.uelcome {
+    position: absolute;
+    width: 358px;
+    height: 55px;
+    left: 160px;
+    top: 10px;
+
+}
+
+.botaosingu {
+    position: absolute;
+    width: 189px;
+    height: 54px;
+    left: 245px;
+    top: 250px;
+
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+
+.logorap {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.fonteact {
+    font-family: 'Doppio One', sans-serif;
+    color: #001122
+}
+
+.fonteact {
+    text-align: center;
+    z-index: 100;
+}
+
+.logorap {
+    position: absolute;
+    width: 299px;
+    height: 48px;
+    left: 845px;
+    top: 115px;
+}
+
+.entera {
+    font-family: 'Doppio One', sans-serif;
+    position: absolute;
+    width: 299px;
+    height: 48px;
+    left: 1690px;
+    top: 150px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #001122;
+}
